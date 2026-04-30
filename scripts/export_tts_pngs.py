@@ -11,6 +11,13 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 EXPORT_DIR = ROOT / "exports" / "tts"
 
+CARD_SHEET_NAMES = {
+    "ability_cards_front.svg",
+    "ability_cards_back.svg",
+    "mystery_cards_front.svg",
+    "mystery_cards_back.svg",
+}
+
 
 def svg_dimensions(svg_path: Path) -> tuple[int, int]:
     root = ET.fromstring(svg_path.read_text(encoding="utf-8"))
@@ -99,7 +106,9 @@ def main() -> None:
 
     for svg_path in svg_paths:
         png_path = svg_path.with_suffix(".png")
-        if qlmanage:
+        if svg_path.name in CARD_SHEET_NAMES and magick:
+            export_with_magick(magick, svg_path, png_path)
+        elif qlmanage:
             export_with_qlmanage(qlmanage, svg_path, png_path)
         elif magick:
             export_with_magick(magick, svg_path, png_path)

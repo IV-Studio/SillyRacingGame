@@ -111,6 +111,24 @@ def add_wrapped_text(parts: List[str], text: str, x: int, y: int, width_chars: i
         )
 
 
+def render_blank_front(parts: List[str], x: int, y: int) -> None:
+    parts.append(f'<g transform="translate({x},{y})">')
+    parts.append(f'<rect width="{CARD_W}" height="{CARD_H}" fill="#223247"/>')
+    parts.append(f'<rect x="20" y="20" width="{CARD_W - 40}" height="{CARD_H - 40}" rx="28" fill="none" stroke="#7AD9E1" stroke-width="8"/>')
+    parts.append(f'<circle cx="{CARD_W / 2:.1f}" cy="{CARD_H / 2 - 80:.1f}" r="170" fill="#7AD9E1" fill-opacity="0.18"/>')
+    parts.append(f'<circle cx="{CARD_W / 2:.1f}" cy="{CARD_H / 2 - 80:.1f}" r="118" fill="#7AD9E1" fill-opacity="0.28"/>')
+    parts.append(f'<circle cx="{CARD_W / 2:.1f}" cy="{CARD_H / 2 - 80:.1f}" r="70" fill="#7AD9E1"/>')
+    parts.append(
+        f'<text x="{CARD_W / 2:.1f}" y="{CARD_H / 2 + 150:.1f}" text-anchor="middle" '
+        f'font-family="{FONT_STACK}" font-size="64" font-weight="700" fill="#F4FDFF">Unused Slot</text>'
+    )
+    parts.append(
+        f'<text x="{CARD_W / 2:.1f}" y="{CARD_H / 2 + 214:.1f}" text-anchor="middle" '
+        f'font-family="{FONT_STACK}" font-size="{SMALL_SIZE}" letter-spacing="4" fill="#D7E3F0">IGNORE IN TTS</text>'
+    )
+    parts.append("</g>")
+
+
 def render_front(cards: List[AbilityCard]) -> str:
     cols, rows = choose_grid(len(cards))
     sheet_w = cols * CARD_W + (cols - 1) * GAP
@@ -149,6 +167,9 @@ def render_front(cards: List[AbilityCard]) -> str:
             f'font-family="{FONT_STACK}" font-size="{SMALL_SIZE}" fill="#415166">{escape(card.id)}</text>'
         )
         parts.append("</g>")
+    for index in range(len(cards), cols * rows):
+        x, y = card_origin(index, cols)
+        render_blank_front(parts, x, y)
     parts.append("</svg>\n")
     return "\n".join(parts)
 
