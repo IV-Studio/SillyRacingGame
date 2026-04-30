@@ -37,6 +37,7 @@ def svg_dimensions(svg_path: Path) -> tuple[int, int]:
 def export_with_qlmanage(qlmanage: str, svg_path: Path, png_path: Path) -> None:
     width, height = svg_dimensions(svg_path)
     size = max(width, height)
+    magick = shutil.which("magick")
     with tempfile.TemporaryDirectory() as temp_dir:
         subprocess.run(
             [
@@ -55,7 +56,22 @@ def export_with_qlmanage(qlmanage: str, svg_path: Path, png_path: Path) -> None:
         rendered_path = Path(temp_dir) / f"{svg_path.name}.png"
         if not rendered_path.exists():
             raise FileNotFoundError(f"Quick Look did not produce {rendered_path}")
-        shutil.copyfile(rendered_path, png_path)
+        if magick:
+            subprocess.run(
+                [
+                    magick,
+                    str(rendered_path),
+                    "-gravity",
+                    "center",
+                    "-crop",
+                    f"{width}x{height}+0+0",
+                    "+repage",
+                    str(png_path),
+                ],
+                check=True,
+            )
+        else:
+            shutil.copyfile(rendered_path, png_path)
 
 
 def export_with_magick(magick: str, svg_path: Path, png_path: Path) -> None:

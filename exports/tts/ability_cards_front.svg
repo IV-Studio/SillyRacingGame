@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="6168" height="6420" viewBox="0 0 6168 6420">
+<svg xmlns="http://www.w3.org/2000/svg" width="6000" height="6300" viewBox="0 0 6000 6300">
 
-<rect width="6168" height="6420" fill="#101720"/>
+<rect width="6000" height="6300" fill="#101720"/>
 <g transform="translate(0,0)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -16,8 +16,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_reroll_engine</text>
 </g>
-<g transform="translate(774,0)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(750,0)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -31,8 +31,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_turbo_intake</text>
 </g>
-<g transform="translate(1548,0)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(1500,0)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -46,8 +46,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_precision_gear</text>
 </g>
-<g transform="translate(2322,0)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(2250,0)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -61,8 +61,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_heat_sink</text>
 </g>
-<g transform="translate(3096,0)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(3000,0)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -76,8 +76,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_orange_converter</text>
 </g>
-<g transform="translate(3870,0)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(3750,0)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -91,8 +91,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_red_converter</text>
 </g>
-<g transform="translate(4644,0)">
-<rect width="750" height="1050" rx="36" fill="#FBF7FF"/>
+<g transform="translate(4500,0)">
+<rect width="750" height="1050" fill="#FBF7FF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#5A2E88" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#5A2E88"/>
 <rect y="130" width="750" height="90" fill="#5A2E88"/>
@@ -105,8 +105,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_grip_master</text>
 </g>
-<g transform="translate(5418,0)">
-<rect width="750" height="1050" rx="36" fill="#FBF7FF"/>
+<g transform="translate(5250,0)">
+<rect width="750" height="1050" fill="#FBF7FF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#5A2E88" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#5A2E88"/>
 <rect y="130" width="750" height="90" fill="#5A2E88"/>
@@ -119,8 +119,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_hazard_shell</text>
 </g>
-<g transform="translate(0,1074)">
-<rect width="750" height="1050" rx="36" fill="#F0FDFF"/>
+<g transform="translate(0,1050)">
+<rect width="750" height="1050" fill="#F0FDFF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#12737E" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#12737E"/>
 <rect y="130" width="750" height="90" fill="#12737E"/>
@@ -134,8 +134,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_coin_magnet</text>
 </g>
-<g transform="translate(774,1074)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(750,1050)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -149,8 +149,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_risk_dividend</text>
 </g>
-<g transform="translate(1548,1074)">
-<rect width="750" height="1050" rx="36" fill="#F4F8FF"/>
+<g transform="translate(1500,1050)">
+<rect width="750" height="1050" fill="#F4F8FF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#345C9C" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#345C9C"/>
 <rect y="130" width="750" height="90" fill="#345C9C"/>
@@ -164,8 +164,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_overdrive</text>
 </g>
-<g transform="translate(2322,1074)">
-<rect width="750" height="1050" rx="36" fill="#F2FFF8"/>
+<g transform="translate(2250,1050)">
+<rect width="750" height="1050" fill="#F2FFF8"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#2D6A4F" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#2D6A4F"/>
 <rect y="130" width="750" height="90" fill="#2D6A4F"/>
@@ -179,8 +179,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_refinery</text>
 </g>
-<g transform="translate(3096,1074)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(3000,1050)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -194,8 +194,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_red_reroll</text>
 </g>
-<g transform="translate(3870,1074)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(3750,1050)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -209,8 +209,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_orange_reroll</text>
 </g>
-<g transform="translate(4644,1074)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(4500,1050)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -224,8 +224,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_yellow_reroll</text>
 </g>
-<g transform="translate(5418,1074)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(5250,1050)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -239,8 +239,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_red_tuning</text>
 </g>
-<g transform="translate(0,2148)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(0,2100)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -254,8 +254,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_orange_tuning</text>
 </g>
-<g transform="translate(774,2148)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(750,2100)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -269,8 +269,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_yellow_tuning</text>
 </g>
-<g transform="translate(1548,2148)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(1500,2100)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -284,8 +284,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_orange_crosswire</text>
 </g>
-<g transform="translate(2322,2148)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(2250,2100)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -299,8 +299,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_orange_splitter</text>
 </g>
-<g transform="translate(3096,2148)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(3000,2100)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -314,8 +314,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_red_crosswire</text>
 </g>
-<g transform="translate(3870,2148)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(3750,2100)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -329,8 +329,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_red_splitter</text>
 </g>
-<g transform="translate(4644,2148)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(4500,2100)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -344,8 +344,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_yellow_crosswire</text>
 </g>
-<g transform="translate(5418,2148)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(5250,2100)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -359,8 +359,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_yellow_splitter</text>
 </g>
-<g transform="translate(0,3222)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(0,3150)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -376,8 +376,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_flat_cruise</text>
 </g>
-<g transform="translate(774,3222)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(750,3150)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -391,8 +391,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_even_rounder</text>
 </g>
-<g transform="translate(1548,3222)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(1500,3150)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -406,8 +406,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_parity_crash</text>
 </g>
-<g transform="translate(2322,3222)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(2250,3150)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -421,8 +421,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_parity_swing</text>
 </g>
-<g transform="translate(3096,3222)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(3000,3150)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -437,8 +437,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_front_back_balance</text>
 </g>
-<g transform="translate(3870,3222)">
-<rect width="750" height="1050" rx="36" fill="#FFF2F5"/>
+<g transform="translate(3750,3150)">
+<rect width="750" height="1050" fill="#FFF2F5"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#7D2337" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#7D2337"/>
 <rect y="130" width="750" height="90" fill="#7D2337"/>
@@ -453,8 +453,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_red_prediction</text>
 </g>
-<g transform="translate(4644,3222)">
-<rect width="750" height="1050" rx="36" fill="#FFF2F5"/>
+<g transform="translate(4500,3150)">
+<rect width="750" height="1050" fill="#FFF2F5"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#7D2337" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#7D2337"/>
 <rect y="130" width="750" height="90" fill="#7D2337"/>
@@ -470,8 +470,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_orange_echo</text>
 </g>
-<g transform="translate(5418,3222)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(5250,3150)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -486,8 +486,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_matching_doubles</text>
 </g>
-<g transform="translate(0,4296)">
-<rect width="750" height="1050" rx="36" fill="#FFF6ED"/>
+<g transform="translate(0,4200)">
+<rect width="750" height="1050" fill="#FFF6ED"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#A14F10" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#A14F10"/>
 <rect y="130" width="750" height="90" fill="#A14F10"/>
@@ -501,8 +501,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_mismatch_surge</text>
 </g>
-<g transform="translate(774,4296)">
-<rect width="750" height="1050" rx="36" fill="#FBF7FF"/>
+<g transform="translate(750,4200)">
+<rect width="750" height="1050" fill="#FBF7FF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#5A2E88" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#5A2E88"/>
 <rect y="130" width="750" height="90" fill="#5A2E88"/>
@@ -516,8 +516,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_trap_dodge</text>
 </g>
-<g transform="translate(1548,4296)">
-<rect width="750" height="1050" rx="36" fill="#FFF2F5"/>
+<g transform="translate(1500,4200)">
+<rect width="750" height="1050" fill="#FFF2F5"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#7D2337" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#7D2337"/>
 <rect y="130" width="750" height="90" fill="#7D2337"/>
@@ -532,8 +532,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_negative_mines</text>
 </g>
-<g transform="translate(2322,4296)">
-<rect width="750" height="1050" rx="36" fill="#FBF7FF"/>
+<g transform="translate(2250,4200)">
+<rect width="750" height="1050" fill="#FBF7FF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#5A2E88" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#5A2E88"/>
 <rect y="130" width="750" height="90" fill="#5A2E88"/>
@@ -547,8 +547,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_safe_traps</text>
 </g>
-<g transform="translate(3096,4296)">
-<rect width="750" height="1050" rx="36" fill="#FBF7FF"/>
+<g transform="translate(3000,4200)">
+<rect width="750" height="1050" fill="#FBF7FF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#5A2E88" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#5A2E88"/>
 <rect y="130" width="750" height="90" fill="#5A2E88"/>
@@ -562,8 +562,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_trap_reset</text>
 </g>
-<g transform="translate(3870,4296)">
-<rect width="750" height="1050" rx="36" fill="#FBF7FF"/>
+<g transform="translate(3750,4200)">
+<rect width="750" height="1050" fill="#FBF7FF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#5A2E88" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#5A2E88"/>
 <rect y="130" width="750" height="90" fill="#5A2E88"/>
@@ -578,8 +578,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_trap_pick</text>
 </g>
-<g transform="translate(4644,4296)">
-<rect width="750" height="1050" rx="36" fill="#FBF7FF"/>
+<g transform="translate(4500,4200)">
+<rect width="750" height="1050" fill="#FBF7FF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#5A2E88" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#5A2E88"/>
 <rect y="130" width="750" height="90" fill="#5A2E88"/>
@@ -594,8 +594,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_reverse_loot</text>
 </g>
-<g transform="translate(5418,4296)">
-<rect width="750" height="1050" rx="36" fill="#FFF2F5"/>
+<g transform="translate(5250,4200)">
+<rect width="750" height="1050" fill="#FFF2F5"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#7D2337" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#7D2337"/>
 <rect y="130" width="750" height="90" fill="#7D2337"/>
@@ -610,8 +610,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_pit_body</text>
 </g>
-<g transform="translate(0,5370)">
-<rect width="750" height="1050" rx="36" fill="#FFF2F5"/>
+<g transform="translate(0,5250)">
+<rect width="750" height="1050" fill="#FFF2F5"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#7D2337" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#7D2337"/>
 <rect y="130" width="750" height="90" fill="#7D2337"/>
@@ -627,8 +627,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_hitchhike</text>
 </g>
-<g transform="translate(774,5370)">
-<rect width="750" height="1050" rx="36" fill="#F0FDFF"/>
+<g transform="translate(750,5250)">
+<rect width="750" height="1050" fill="#F0FDFF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#12737E" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#12737E"/>
 <rect y="130" width="750" height="90" fill="#12737E"/>
@@ -642,8 +642,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_slipstream_burst</text>
 </g>
-<g transform="translate(1548,5370)">
-<rect width="750" height="1050" rx="36" fill="#FFF2F5"/>
+<g transform="translate(1500,5250)">
+<rect width="750" height="1050" fill="#FFF2F5"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#7D2337" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#7D2337"/>
 <rect y="130" width="750" height="90" fill="#7D2337"/>
@@ -656,8 +656,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_bump_draft</text>
 </g>
-<g transform="translate(2322,5370)">
-<rect width="750" height="1050" rx="36" fill="#FFF2F5"/>
+<g transform="translate(2250,5250)">
+<rect width="750" height="1050" fill="#FFF2F5"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#7D2337" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#7D2337"/>
 <rect y="130" width="750" height="90" fill="#7D2337"/>
@@ -671,8 +671,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_contact_burst</text>
 </g>
-<g transform="translate(3096,5370)">
-<rect width="750" height="1050" rx="36" fill="#FFF2F5"/>
+<g transform="translate(3000,5250)">
+<rect width="750" height="1050" fill="#FFF2F5"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#7D2337" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#7D2337"/>
 <rect y="130" width="750" height="90" fill="#7D2337"/>
@@ -686,8 +686,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_four_alarm</text>
 </g>
-<g transform="translate(3870,5370)">
-<rect width="750" height="1050" rx="36" fill="#F0FDFF"/>
+<g transform="translate(3750,5250)">
+<rect width="750" height="1050" fill="#F0FDFF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#12737E" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#12737E"/>
 <rect y="130" width="750" height="90" fill="#12737E"/>
@@ -703,8 +703,8 @@
 <text x="56" y="958" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">Unique Ability</text>
 <text x="694" y="958" text-anchor="end" font-family="Trebuchet MS, Verdana, sans-serif" font-size="28" fill="#415166">ability_coin_sweep</text>
 </g>
-<g transform="translate(4644,5370)">
-<rect width="750" height="1050" rx="36" fill="#F0FDFF"/>
+<g transform="translate(4500,5250)">
+<rect width="750" height="1050" fill="#F0FDFF"/>
 <rect x="20" y="20" width="710" height="1010" rx="28" fill="none" stroke="#12737E" stroke-width="8"/>
 <rect width="750" height="170" rx="36" fill="#12737E"/>
 <rect y="130" width="750" height="90" fill="#12737E"/>

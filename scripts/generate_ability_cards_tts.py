@@ -17,7 +17,7 @@ BACK_PATH = EXPORT_DIR / "ability_cards_back.svg"
 
 CARD_W = 750
 CARD_H = 1050
-GAP = 24
+GAP = 0
 
 FONT_STACK = "Trebuchet MS, Verdana, sans-serif"
 TITLE_SIZE = 52
@@ -121,7 +121,7 @@ def render_front(cards: List[AbilityCard]) -> str:
         x, y = card_origin(index, cols)
         accent, accent_soft, panel = palette(card.trigger)
         parts.append(f'<g transform="translate({x},{y})">')
-        parts.append(f'<rect width="{CARD_W}" height="{CARD_H}" rx="36" fill="{panel}"/>')
+        parts.append(f'<rect width="{CARD_W}" height="{CARD_H}" fill="{panel}"/>')
         parts.append(f'<rect x="20" y="20" width="{CARD_W - 40}" height="{CARD_H - 40}" rx="28" fill="none" stroke="{accent}" stroke-width="8"/>')
         parts.append(f'<rect width="{CARD_W}" height="170" rx="36" fill="{accent}"/>')
         parts.append(f'<rect y="130" width="{CARD_W}" height="90" fill="{accent}"/>')
@@ -155,7 +155,7 @@ def render_front(cards: List[AbilityCard]) -> str:
 
 def render_back() -> str:
     parts = [svg_header(CARD_W, CARD_H)]
-    parts.append(f'<rect width="{CARD_W}" height="{CARD_H}" rx="36" fill="#182231"/>')
+    parts.append(f'<rect width="{CARD_W}" height="{CARD_H}" fill="#182231"/>')
     parts.append(f'<rect x="20" y="20" width="{CARD_W - 40}" height="{CARD_H - 40}" rx="28" fill="none" stroke="#7AD9E1" stroke-width="8"/>')
     parts.append(f'<rect x="56" y="56" width="{CARD_W - 112}" height="{CARD_H - 112}" rx="24" fill="#223247"/>')
     parts.append(f'<circle cx="{CARD_W / 2:.1f}" cy="{CARD_H / 2 - 80:.1f}" r="170" fill="#7AD9E1" fill-opacity="0.18"/>')
