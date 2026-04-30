@@ -15,7 +15,6 @@ EXPORT_DIR = ROOT / "exports" / "tts"
 FRONT_PATH = EXPORT_DIR / "ability_cards_front.svg"
 BACK_PATH = EXPORT_DIR / "ability_cards_back.svg"
 
-COLS = 4
 CARD_W = 750
 CARD_H = 1050
 GAP = 24
@@ -80,9 +79,27 @@ def svg_header(width: int, height: int) -> str:
     )
 
 
-def card_origin(index: int) -> tuple[int, int]:
-    col = index % COLS
-    row = index // COLS
+def choose_grid(card_count: int) -> tuple[int, int]:
+    best_cols = 1
+    best_rows = card_count
+    best_score = float("inf")
+
+    for cols in range(1, card_count + 1):
+        rows = math.ceil(card_count / cols)
+        sheet_w = cols * CARD_W + (cols - 1) * GAP
+        sheet_h = rows * CARD_H + (rows - 1) * GAP
+        score = abs(math.log(sheet_w / sheet_h))
+        if score < best_score:
+            best_score = score
+            best_cols = cols
+            best_rows = rows
+
+    return best_cols, best_rows
+
+
+def card_origin(index: int, cols: int) -> tuple[int, int]:
+    col = index % cols
+    row = index // cols
     return col * (CARD_W + GAP), row * (CARD_H + GAP)
 
 
@@ -95,13 +112,13 @@ def add_wrapped_text(parts: List[str], text: str, x: int, y: int, width_chars: i
 
 
 def render_front(cards: List[AbilityCard]) -> str:
-    rows = max(1, math.ceil(len(cards) / COLS))
-    sheet_w = COLS * CARD_W + (COLS - 1) * GAP
+    cols, rows = choose_grid(len(cards))
+    sheet_w = cols * CARD_W + (cols - 1) * GAP
     sheet_h = rows * CARD_H + (rows - 1) * GAP
     parts = [svg_header(sheet_w, sheet_h)]
     parts.append(f'<rect width="{sheet_w}" height="{sheet_h}" fill="#101720"/>')
     for index, card in enumerate(cards):
-        x, y = card_origin(index)
+        x, y = card_origin(index, cols)
         accent, accent_soft, panel = palette(card.trigger)
         parts.append(f'<g transform="translate({x},{y})">')
         parts.append(f'<rect width="{CARD_W}" height="{CARD_H}" rx="36" fill="{panel}"/>')

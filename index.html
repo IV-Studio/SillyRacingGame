@@ -6,163 +6,101 @@
   <title>Silly Racing Game TTS Assets</title>
   <style>
     :root {
-      --bg: #f6f1e7;
-      --bg-accent: #efe0c4;
-      --panel: rgba(255, 252, 246, 0.88);
-      --panel-strong: #fffaf1;
-      --text: #231815;
-      --muted: #705c55;
-      --line: rgba(77, 48, 34, 0.16);
-      --line-strong: rgba(77, 48, 34, 0.3);
-      --accent: #c95b2b;
-      --accent-deep: #8d2f1e;
-      --accent-soft: rgba(201, 91, 43, 0.12);
-      --shadow: 0 18px 50px rgba(92, 56, 26, 0.12);
-      --radius-xl: 28px;
-      --radius-lg: 18px;
-      --radius-md: 12px;
-      --font-display: "Avenir Next Condensed", "Trebuchet MS", "Arial Narrow", sans-serif;
-      --font-body: "Avenir Next", "Segoe UI", sans-serif;
+      color-scheme: dark;
+      --bg: #101220;
+      --panel: #191c2d;
+      --panel-alt: #111422;
+      --text: #f4f1e8;
+      --muted: #b6b9c8;
+      --line: #34384f;
+      --accent: #7cc7a2;
+      --accent-soft: rgba(124, 199, 162, 0.14);
     }
 
     * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      min-height: 100vh;
+      background: var(--bg);
       color: var(--text);
-      font: 16px/1.5 var(--font-body);
-      background:
-        radial-gradient(circle at top left, rgba(255, 255, 255, 0.8), transparent 30%),
-        radial-gradient(circle at bottom right, rgba(201, 91, 43, 0.12), transparent 24%),
-        linear-gradient(180deg, var(--bg-accent) 0%, var(--bg) 24%, #fbf8f2 100%);
-    }
-
-    body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      background-image:
-        linear-gradient(rgba(141, 47, 30, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(141, 47, 30, 0.03) 1px, transparent 1px);
-      background-size: 26px 26px;
-      mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 90%);
+      font: 16px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     main {
-      width: min(1180px, calc(100% - 28px));
+      width: min(1120px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 28px 0 56px;
-    }
-
-    .hero,
-    .config-panel,
-    .status-bar,
-    .section-panel {
-      backdrop-filter: blur(14px);
-      background: var(--panel);
-      border: 1px solid var(--line);
-      box-shadow: var(--shadow);
-    }
-
-    .hero {
-      position: relative;
-      overflow: hidden;
-      padding: 28px;
-      border-radius: var(--radius-xl);
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      right: -60px;
-      top: -70px;
-      width: 240px;
-      height: 240px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(201, 91, 43, 0.22), rgba(201, 91, 43, 0));
-    }
-
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 7px 12px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: rgba(255, 255, 255, 0.55);
-      color: var(--accent-deep);
-      font-size: 0.76rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    .eyebrow::before {
-      content: "";
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, #ffb347, var(--accent));
-      box-shadow: 0 0 0 4px rgba(201, 91, 43, 0.12);
-    }
-
-    h1,
-    h2 {
-      font-family: var(--font-display);
-      font-weight: 800;
-      letter-spacing: 0.01em;
-      margin: 0;
+      padding: 36px 0 56px;
     }
 
     h1 {
-      margin-top: 16px;
-      font-size: clamp(2.4rem, 6vw, 4.8rem);
-      line-height: 0.94;
-      max-width: 10ch;
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: 0;
     }
 
-    .hero p {
+    p {
       max-width: 760px;
-      margin: 18px 0 0;
+      margin: 14px 0 0;
       color: var(--muted);
-      font-size: 1.02rem;
     }
 
-    .hero-copy {
-      position: relative;
-      z-index: 1;
+    section {
+      margin-top: 34px;
     }
 
-    .config-panel,
-    .status-bar,
-    .section-panel {
-      border-radius: 22px;
-      margin-top: 20px;
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      color: var(--accent);
     }
 
-    .config-panel {
-      padding: 22px;
+    .top-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .page-tag {
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+    }
+
+    .info-panel {
+      margin-top: 28px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
     }
 
     .panel-header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: start;
       gap: 14px;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
     .panel-header p {
-      margin: 4px 0 0;
-      color: var(--muted);
+      margin: 0;
     }
 
     .chip {
-      padding: 7px 12px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
       border-radius: 999px;
-      background: var(--accent-soft);
-      color: var(--accent-deep);
+      background: var(--panel-alt);
+      color: var(--accent);
       font-size: 0.8rem;
       font-weight: 700;
       white-space: nowrap;
@@ -179,7 +117,7 @@
       gap: 6px;
       font-size: 0.9rem;
       font-weight: 700;
-      color: var(--accent-deep);
+      color: var(--text);
     }
 
     input,
@@ -191,18 +129,18 @@
     input,
     select {
       width: 100%;
-      border: 1px solid var(--line-strong);
-      border-radius: 12px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
       padding: 11px 12px;
-      background: rgba(255, 255, 255, 0.86);
+      background: var(--panel-alt);
       color: var(--text);
     }
 
     input:focus,
     select:focus,
     button:focus-visible {
-      outline: 2px solid rgba(201, 91, 43, 0.3);
-      outline-offset: 2px;
+      outline: none;
+      border-color: var(--accent);
     }
 
     .config-actions {
@@ -213,57 +151,46 @@
     }
 
     .button {
-      border: 1px solid var(--line-strong);
-      border-radius: 999px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
       padding: 10px 16px;
-      background: var(--panel-strong);
+      background: transparent;
       color: var(--text);
       cursor: pointer;
-      transition: transform 140ms ease, background 140ms ease, border-color 140ms ease;
+      transition: background 140ms ease;
     }
 
     .button:hover {
-      transform: translateY(-1px);
-      border-color: rgba(201, 91, 43, 0.5);
+      background: var(--accent-soft);
     }
 
     .button-primary {
-      background: linear-gradient(135deg, var(--accent), var(--accent-deep));
-      border-color: transparent;
-      color: #fff6ef;
       font-weight: 700;
     }
 
     .status-bar {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 20px;
-    }
-
-    .status-bar strong {
-      color: var(--accent-deep);
+      margin-top: 18px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
     }
 
     .status-bar code {
+      display: inline-block;
+      margin-top: 8px;
       padding: 2px 8px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.7);
+      border-radius: 6px;
+      background: var(--panel-alt);
       border: 1px solid var(--line);
-      color: var(--accent-deep);
+      color: var(--accent);
       overflow-wrap: anywhere;
-    }
-
-    .section-panel {
-      padding: 20px;
     }
 
     .section-heading {
       display: flex;
       justify-content: space-between;
-      align-items: end;
+      align-items: start;
       gap: 16px;
       margin-bottom: 14px;
     }
@@ -283,76 +210,56 @@
     }
 
     .asset-card {
-      display: flex;
-      flex-direction: column;
-      min-height: 100%;
       border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
+      background: var(--panel);
+      border-radius: 8px;
       overflow: hidden;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 241, 233, 0.96));
-      box-shadow: 0 10px 24px rgba(79, 49, 25, 0.08);
-      transform: translateY(0);
-      transition: transform 180ms ease, box-shadow 180ms ease;
-    }
-
-    .asset-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 18px 34px rgba(79, 49, 25, 0.14);
     }
 
     .asset-link {
       display: block;
+      min-height: 190px;
       text-decoration: none;
       color: inherit;
     }
 
     .preview-wrap {
-      display: grid;
-      place-items: center;
-      height: 170px;
-      padding: 16px;
-      background:
-        linear-gradient(135deg, rgba(255, 196, 110, 0.18), rgba(201, 91, 43, 0.08)),
-        repeating-linear-gradient(
-          -45deg,
-          rgba(255, 255, 255, 0.6) 0 16px,
-          rgba(255, 248, 240, 0.85) 16px 32px
-        );
+      height: 150px;
+      padding: 0;
+      background: #0b0d18;
       border-bottom: 1px solid var(--line);
     }
 
     .preview-wrap img {
+      display: block;
       width: 100%;
       height: 100%;
       object-fit: contain;
-      filter: drop-shadow(0 10px 20px rgba(63, 33, 17, 0.18));
-    }
-
-    .asset-body {
-      display: grid;
-      gap: 8px;
-      padding: 14px 14px 12px;
     }
 
     .asset-title {
-      font-weight: 800;
-      font-size: 1rem;
-      line-height: 1.15;
+      display: block;
+      padding: 10px 12px 4px;
+      font-weight: 650;
+      overflow-wrap: anywhere;
     }
 
     .asset-meta,
     .asset-path {
-      color: var(--muted);
+      display: block;
       overflow-wrap: anywhere;
     }
 
     .asset-meta {
-      min-height: 2.8em;
-      font-size: 0.92rem;
+      min-height: 48px;
+      padding: 0 12px 8px;
+      color: var(--muted);
     }
 
     .asset-path {
-      font-size: 0.84rem;
+      padding: 0 12px 12px;
+      color: var(--muted);
+      font-size: 0.78rem;
       font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     }
 
@@ -360,17 +267,17 @@
       display: grid;
       grid-template-columns: 1fr auto;
       gap: 8px;
-      padding: 0 14px 14px;
-      margin-top: auto;
+      padding: 0 10px 10px;
     }
 
     .asset-actions .button {
-      border-radius: 12px;
+      width: 100%;
+      margin: 0;
       padding-inline: 12px;
     }
 
     .link-pill {
-      display: inline-flex;
+      display: flex;
       align-items: center;
       justify-content: center;
       min-width: 44px;
@@ -381,40 +288,40 @@
     footer {
       margin-top: 18px;
       color: var(--muted);
-      text-align: center;
       font-size: 0.92rem;
     }
 
     @media (max-width: 720px) {
       main {
-        width: min(100% - 18px, 1180px);
-        padding-top: 18px;
+        width: min(100% - 20px, 1120px);
+        padding-top: 24px;
       }
 
-      .hero,
-      .config-panel,
-      .section-panel {
-        padding-left: 18px;
-        padding-right: 18px;
-      }
-
-      .status-bar {
-        padding: 14px 16px;
+      .top-block,
+      .panel-header,
+      .section-heading {
+        flex-direction: column;
+        align-items: start;
       }
     }
   </style>
 </head>
 <body>
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <span class="eyebrow">Tabletop Simulator Asset Hub</span>
+    <div class="top-block">
+      <div>
         <h1>Silly Racing Game TTS Assets</h1>
-        <p>Open any export to verify it loads, then copy a direct URL for Tabletop Simulator. By default the page copies the asset URL from wherever this page is hosted, and it can also build <code>raw.githubusercontent.com</code> links if you prefer.</p>
+        <p>Open an asset to verify it loads directly, or copy its URL and paste it into Tabletop Simulator custom object fields.</p>
       </div>
+      <div class="page-tag">Asset Hub</div>
+    </div>
+
+    <section class="info-panel">
+      <h2>How To Use</h2>
+      <p>Use hosted page links if this file is served alongside the exported assets. Switch to raw GitHub mode if you want direct <code>raw.githubusercontent.com</code> URLs for TTS fields.</p>
     </section>
 
-    <section class="config-panel" aria-labelledby="config-title">
+    <section class="info-panel" aria-labelledby="config-title">
       <div class="panel-header">
         <div>
           <h2 id="config-title">URL Builder</h2>
@@ -455,9 +362,10 @@
       </div>
     </section>
 
-    <section class="status-bar" aria-live="polite">
+    <section class="status-bar info-panel" aria-live="polite">
       <div><strong>Current mode:</strong> <span id="active-mode">Hosted page URL</span></div>
-      <div><strong>Sample output:</strong> <code id="sample-url">Loading…</code></div>
+      <div><strong>Sample output:</strong></div>
+      <code id="sample-url">Loading…</code>
     </section>
 
     <div id="sections"></div>
@@ -495,7 +403,7 @@
             title: "Ability Cards Front",
             path: "exports/tts/ability_cards_front.svg",
             preview: "exports/tts/ability_cards_front.svg",
-            meta: "TTS Width 4 · Height dynamic · 3072×12864"
+            meta: "TTS Width 8 · Height 6 · Number 47 · 6168×6420"
           },
           {
             title: "Ability Cards Back",
@@ -651,7 +559,6 @@
 
       assets.forEach((section) => {
         const wrapper = document.createElement("section");
-        wrapper.className = "section-panel";
 
         const cards = section.items.map((item) => {
           const copyUrl = buildUrl(item.path, config);
@@ -661,11 +568,9 @@
                 <div class="preview-wrap">
                   <img src="${item.preview}" alt="${item.title}">
                 </div>
-                <div class="asset-body">
-                  <div class="asset-title">${item.title}</div>
-                  <div class="asset-meta">${item.meta}</div>
-                  <div class="asset-path">${item.path}</div>
-                </div>
+                <span class="asset-title">${item.title}</span>
+                <small class="asset-meta">${item.meta}</small>
+                <small class="asset-path">${item.path}</small>
               </a>
               <div class="asset-actions">
                 <button class="button button-primary" type="button" data-copy-url="${copyUrl}">Copy URL</button>
