@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+
+<rect width="720" height="720" fill="#F08B37"/>
+<line x1="240" y1="0" x2="240" y2="720" stroke="#FFE0C2" stroke-width="2" opacity="0.65"/>
+<line x1="480" y1="0" x2="480" y2="720" stroke="#FFE0C2" stroke-width="2" opacity="0.65"/>
+<line x1="0" y1="240" x2="720" y2="240" stroke="#FFE0C2" stroke-width="2" opacity="0.65"/>
+<line x1="0" y1="480" x2="720" y2="480" stroke="#FFE0C2" stroke-width="2" opacity="0.65"/>
+<text x="120.0" y="348" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#351A0A">-1</text>
+<text x="360.0" y="348" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#351A0A">0</text>
+<text x="600.0" y="348" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#351A0A">+2</text>
+<text x="120.0" y="588" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#351A0A">+3</text>
+<path d="M 120.0 634.0 C 137.0 654.0, 135.6 665.0, 120.0 681.0 C 104.4 665.0, 103.0 654.0, 120.0 634.0 Z" fill="#8A3E22" opacity="0.95"/>
+<text x="360.0" y="588" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#351A0A">+4</text>
+<path d="M 360.0 634.0 C 377.0 654.0, 375.6 665.0, 360.0 681.0 C 344.4 665.0, 343.0 654.0, 360.0 634.0 Z" fill="#8A3E22" opacity="0.95"/>
+<text x="600.0" y="588" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#351A0A">+5</text>
+<path d="M 586.0 634.0 C 603.0 654.0, 601.6 665.0, 586.0 681.0 C 570.4 665.0, 569.0 654.0, 586.0 634.0 Z" fill="#8A3E22" opacity="0.95"/>
+<path d="M 614.0 634.0 C 631.0 654.0, 629.6 665.0, 614.0 681.0 C 598.4 665.0, 597.0 654.0, 614.0 634.0 Z" fill="#8A3E22" opacity="0.95"/>
+</svg>

@@ -1,0 +1,39 @@
+id,type,slot_index,description,value
+first_player,first_player,0,"Take first player next round.",1
+gain_coins,gain_coins,0,"Gain 5 coins.",5
+gain_coins,gain_coins,1,"Gain 3 coins.",3
+gain_coins,gain_coins,2,"Gain 2 coins.",2
+gain_coins,gain_coins,3,"Gain 1 coin.",1
+gain_coins,gain_coins,4,"Gain 1 coin.",1
+dice_yellow_orange_burst,dice_move,0,"Roll 2 yellow dice. Keep 1.",roll=2;colors=yellow;keep=1;display_color=yellow;display_value=2
+dice_yellow_orange_burst,dice_move,1,"Roll 2 orange dice. Keep 1.",roll=2;colors=orange;keep=1;display_color=orange;display_value=2
+dice_yellow_orange_burst,dice_move,2,"Roll 1 red die.",roll=1;colors=red;keep=1;display_color=red;display_value=1
+dice_yellow_orange_burst,dice_move,3,"Roll 1 yellow die.",roll=1;colors=yellow;keep=1;display_color=yellow;display_value=1
+dice_yellow_orange_burst,dice_move,4,"Roll 1 orange die.",roll=1;colors=orange;keep=1;display_color=orange;display_value=1
+gain_fuel,gain_fuel,0,"Gain 4 fuel.",4
+gain_fuel,gain_fuel,1,"Gain 3 fuel.",3
+gain_fuel,gain_fuel,2,"Gain 2 fuel.",2
+gain_fuel,gain_fuel,3,"Gain 1 fuel.",1
+gain_fuel,gain_fuel,4,"Gain 1 fuel.",1
+fixed_move,fixed_move,0,"Move 6 spaces.",6
+fixed_move,fixed_move,1,"Move 4 spaces.",4
+fixed_move,fixed_move,2,"Move 3 spaces.",3
+fixed_move,fixed_move,3,"Move 2 spaces.",2
+fixed_move,fixed_move,4,"Move 2 spaces.",2
+fixed_move,fixed_move,5,"Move 1 space.",1
+dice_orange_red_push,dice_move,0,"Roll 2 orange dice. Keep 1.",roll=2;colors=orange;keep=1;display_color=orange;display_value=2
+dice_orange_red_push,dice_move,1,"Roll 2 red dice. Keep 1.",roll=2;colors=red;keep=1;display_color=red;display_value=2
+dice_orange_red_push,dice_move,2,"Roll 1 red die.",roll=1;colors=red;keep=1;display_color=red;display_value=1
+dice_orange_red_push,dice_move,3,"Roll 1 orange die.",roll=1;colors=orange;keep=1;display_color=orange;display_value=1
+dice_orange_red_push,dice_move,4,"Roll 1 yellow die.",roll=1;colors=yellow;keep=1;display_color=yellow;display_value=1
+ability_draft,ability_draft,0,"Pay 7 coins to draft an ability.",7
+ability_draft,ability_draft,1,"Pay 5 coins to draft an ability.",5
+ability_draft,ability_draft,2,"Pay 4 coins to draft an ability.",4
+ability_draft,ability_draft,3,"Pay 3 coins to draft an ability.",3
+ability_draft,ability_draft,4,"Pay 2 coins to draft an ability.",2
+ability_draft,ability_draft,5,"Pay 1 coin to draft an ability.",1
+dice_yellow_red_gamble,dice_move,0,"Roll 3 red dice. Keep 1.",roll=3;colors=red;keep=1;display_color=red;display_value=3
+dice_yellow_red_gamble,dice_move,1,"Roll 2 red dice. Keep 1.",roll=2;colors=red;keep=1;display_color=red;display_value=2
+dice_yellow_red_gamble,dice_move,2,"Roll 2 orange dice. Keep 1.",roll=2;colors=orange;keep=1;display_color=orange;display_value=2
+dice_yellow_red_gamble,dice_move,3,"Roll 1 red die.",roll=1;colors=red;keep=1;display_color=red;display_value=1
+dice_yellow_red_gamble,dice_move,4,"Roll 1 yellow die.",roll=1;colors=yellow;keep=1;display_color=yellow;display_value=1

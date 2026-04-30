@@ -1,0 +1,9 @@
+id,name,description,effect_type,parameters
+card_reroll,Reroll Kit,"Reroll one die pool after rolling.",reroll_pool,threshold=3
+card_boost,Boost Burst,"Gain +2 movement.",move_bonus,amount=2
+card_fuel,Spare Can,"Gain 2 fuel.",gain_fuel,amount=2
+card_coins,Coin Stash,"Gain 3 coins.",gain_coins,amount=3
+card_shield,Trap Shield,"Ignore a trap.",ignore_trap,
+card_sabotage,Sabotage,"All players within 3 spaces of you roll a yellow die and move back that many spaces.",sabotage_blast,range=3;die_color=yellow
+card_drafting_line,Drafting Line,"After any move, advance 1 extra space for each opponent directly ahead within 5 spaces.",drafting_line,range=5
+card_overclock,Overclock,"Add +2 to a die result.",overclock,amount=2

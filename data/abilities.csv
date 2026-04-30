@@ -1,0 +1,48 @@
+id,name,description,trigger,effect_type,parameters
+ability_reroll_engine,Reroll Engine,"Once per dice row, you may reroll a weak die pool.",dice_row,reroll_once,threshold=2
+ability_turbo_intake,Turbo Intake,"Roll 1 extra die on each dice row.",dice_row,extra_roll,scope=all;count=1
+ability_precision_gear,Precision Gear,"Keep 1 extra die on each dice row.",dice_row,extra_keep,scope=all;count=1
+ability_heat_sink,Heat Sink,"Reduce fuel costs from dice by 1.",dice_row,fuel_discount,scope=all;amount=1
+ability_orange_converter,Orange Converter,"Yellow dice options also count as orange.",dice_row,color_upgrade,from=yellow;to=orange
+ability_red_converter,Red Converter,"Orange dice options also count as red.",dice_row,color_upgrade,from=orange;to=red
+ability_grip_master,Grip Master,"Ignore orange traps.",trap,ignore_trap,color=orange
+ability_hazard_shell,Hazard Shell,"Ignore red traps.",trap,ignore_trap,color=red
+ability_coin_magnet,Coin Magnet,"Collect coins on spaces you pass over while moving.",movement,collect_passed_coins,amount=1
+ability_risk_dividend,Risk Dividend,"Gain 1 coin whenever you keep a red die.",dice_row,bonus_on_color,color=red;coins=1
+ability_overdrive,Overdrive,"Gain +1 movement on fixed move actions.",fixed_move,move_bonus,amount=1
+ability_refinery,Refinery,"Gain +1 extra fuel whenever you take a fuel action.",resource,gain_bonus,resource=fuel;amount=1;row=gain_fuel
+ability_red_reroll,Red Reroll,"Each time you roll a red die, you may reroll it once.",dice_row,reroll_color_once,color=red;threshold=3
+ability_orange_reroll,Orange Reroll,"Each time you roll an orange die, you may reroll it once.",dice_row,reroll_color_once,color=orange;threshold=2
+ability_yellow_reroll,Yellow Reroll,"Each time you roll a yellow die, you may reroll it once.",dice_row,reroll_color_once,color=yellow;threshold=1
+ability_red_tuning,Red Tuning,"You may add 1 to or subtract 1 from all red dice.",dice_row,adjust_color_roll,color=red;amount=1
+ability_orange_tuning,Orange Tuning,"You may add 1 to or subtract 1 from all orange dice.",dice_row,adjust_color_roll,color=orange;amount=1
+ability_yellow_tuning,Yellow Tuning,"You may add 1 to or subtract 1 from all yellow dice.",dice_row,adjust_color_roll,color=yellow;amount=1
+ability_orange_crosswire,Orange Crosswire,"When rolling orange, you may instead roll red or yellow.",dice_row,color_upgrade,from=orange;to=red
+ability_orange_splitter,Orange Splitter,"When rolling orange, you may instead roll red or yellow.",dice_row,color_upgrade,from=orange;to=yellow
+ability_red_crosswire,Red Crosswire,"When rolling red, you may instead roll orange or yellow.",dice_row,color_upgrade,from=red;to=orange
+ability_red_splitter,Red Splitter,"When rolling red, you may instead roll orange or yellow.",dice_row,color_upgrade,from=red;to=yellow
+ability_yellow_crosswire,Yellow Crosswire,"When rolling yellow, you may instead roll red or orange.",dice_row,color_upgrade,from=yellow;to=red
+ability_yellow_splitter,Yellow Splitter,"When rolling yellow, you may instead roll red or orange.",dice_row,color_upgrade,from=yellow;to=orange
+ability_flat_cruise,Flat Cruise,"Each time you would roll a die, you may instead move 2 spaces. This does not apply to traps.",dice_row,fixed_die_value,amount=2
+ability_even_rounder,Even Rounder,"When rolling, round up to the nearest even number.",dice_row,round_up_even,
+ability_parity_crash,Parity Crash,"All even numbers become 0. All odd numbers are doubled.",dice_row,parity_transform,mode=zero_even_double_odd
+ability_parity_swing,Parity Swing,"Subtract 2 from all even rolls. Add 2 to all odd rolls.",dice_row,parity_transform,mode=minus2_even_plus2_odd
+ability_front_back_balance,Front-Back Balance,"If in last place, add 3 to all rolls. If in first place, subtract 1 from all rolls.",dice_row,position_roll_modifier,last_bonus=3;first_penalty=1
+ability_red_prediction,Red Prediction,"Each time someone rolls a red die, predict the result. If correct, move 2.",reaction,predict_red_roll,bonus=2
+ability_orange_echo,Orange Echo,"Each time someone rolls orange dice, roll an orange die. If your result matches any of theirs, move 1.",reaction,match_orange_roll,bonus=1
+ability_matching_doubles,Matching Doubles,"When rolling multiple dice, if two match, move that value times 2.",dice_row,matching_bonus,multiplier=2
+ability_mismatch_surge,Mismatch Surge,"When rolling 3 or more dice, if not all match, move 6.",dice_row,mismatch_bonus,minimum_dice=3;amount=6
+ability_trap_dodge,Trap Dodge,"Once per round, you may avoid a trap.",trap,avoid_trap_once_per_round,
+ability_negative_mines,Negative Mines,"Each time you roll a negative number, place a yellow trap anywhere on the board.",reaction,place_trap_on_negative,color=yellow
+ability_safe_traps,Safe Traps,"Traps can only move you back up to 2 spaces.",trap,limit_trap_setback,amount=2
+ability_trap_reset,Trap Reset,"You may reroll traps up to 2 times.",trap,trap_rerolls,count=2
+ability_trap_pick,Trap Pick,"When rolling for traps, roll an extra die and choose the result.",trap,trap_extra_choice,count=1
+ability_reverse_loot,Reverse Loot,"When moving backward from traps, collect all rewards along the path.",trap,collect_backward_rewards,
+ability_pit_body,Pit Body,"If someone lands on your space, it acts as a yellow trap.",reaction,space_is_trap,color=yellow
+ability_hitchhike,Hitchhike,"If another player starts their turn on your space, you move with them for their entire turn.",reaction,follow_movement,
+ability_slipstream_burst,Slipstream Burst,"If you pass another player, move 2.",movement,move_bonus_on_pass,amount=2
+ability_bump_draft,Bump Draft,"If someone passes you, move 1.",reaction,move_when_passed,amount=1
+ability_contact_burst,Contact Burst,"If someone lands directly on your space, you move 2.",reaction,move_when_landed_on,amount=2
+ability_four_alarm,Four Alarm,"Each time another player rolls a 4, move 1 after they move.",reaction,move_on_roll_value,value=4;amount=1
+ability_coin_sweep,Coin Sweep,"Once per turn, collect all coins along your movement path, not just the landing space.",movement,collect_passed_coins,amount=1
+ability_box_sweep,Mystery Box Sweep,"Once per turn, collect all mystery boxes along your movement path, not just the landing space.",movement,collect_passed_boxes,amount=1

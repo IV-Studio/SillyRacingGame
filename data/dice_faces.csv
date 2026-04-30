@@ -1,0 +1,19 @@
+id,color,description,value,fuel_cost
+yellow_0,yellow,"Move 0.",0,0
+yellow_1,yellow,"Move 1.",1,0
+yellow_2,yellow,"Move 2.",2,0
+yellow_3a,yellow,"Move 3.",3,0
+yellow_3b,yellow,"Move 3.",3,0
+yellow_2b,yellow,"Move 2.",2,0
+orange_m1,orange,"Move back 1.",-1,0
+orange_0,orange,"Move 0.",0,0
+orange_2,orange,"Move 2.",2,0
+orange_3,orange,"Move 3. Pay 1 fuel.",3,1
+orange_4,orange,"Move 4. Pay 1 fuel.",4,1
+orange_5,orange,"Move 5. Pay 2 fuel.",5,2
+red_m3,red,"Move back 3.",-3,0
+red_m1,red,"Move back 1.",-1,0
+red_1,red,"Move 1.",1,0
+red_4,red,"Move 4. Pay 1 fuel.",4,1
+red_5,red,"Move 5. Pay 2 fuel.",5,2
+red_7,red,"Move 7. Pay 3 fuel.",7,3

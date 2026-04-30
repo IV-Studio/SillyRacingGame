@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+
+<rect width="720" height="720" fill="#F6C453"/>
+<line x1="240" y1="0" x2="240" y2="720" stroke="#FFF7D7" stroke-width="2" opacity="0.65"/>
+<line x1="480" y1="0" x2="480" y2="720" stroke="#FFF7D7" stroke-width="2" opacity="0.65"/>
+<line x1="0" y1="240" x2="720" y2="240" stroke="#FFF7D7" stroke-width="2" opacity="0.65"/>
+<line x1="0" y1="480" x2="720" y2="480" stroke="#FFF7D7" stroke-width="2" opacity="0.65"/>
+<text x="120.0" y="348" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#3A3100">0</text>
+<text x="360.0" y="348" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#3A3100">+1</text>
+<text x="600.0" y="348" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#3A3100">+2</text>
+<text x="120.0" y="588" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#3A3100">+3</text>
+<text x="360.0" y="588" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#3A3100">+3</text>
+<text x="600.0" y="588" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="84" font-weight="700" fill="#3A3100">+2</text>
+</svg>

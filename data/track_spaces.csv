@@ -1,0 +1,61 @@
+index,type,description,metadata
+0,none,"Start space.",start=true
+1,coin,"Gain 1 coin.",coins=1
+2,none,"No effect.",
+3,trap,"Roll yellow and move back that many spaces.",color=yellow
+4,coin,"Gain 2 coins.",coins=2
+5,box,"Draw 1 mystery card.",
+6,none,"No effect.",
+7,coin,"Gain 1 coin.",coins=1
+8,trap,"Roll orange and move back that many spaces.",color=orange
+9,none,"No effect.",
+10,coin,"Gain 1 coin.",coins=1
+11,none,"No effect.",
+12,box,"Draw 1 mystery card.",
+13,coin,"Gain 2 coins.",coins=2
+14,none,"No effect.",
+15,trap,"Roll yellow and move back that many spaces.",color=yellow
+16,coin,"Gain 1 coin.",coins=1
+17,none,"No effect.",
+18,coin,"Gain 1 coin.",coins=1
+19,box,"Draw 1 mystery card.",
+20,none,"No effect.",
+21,trap,"Roll red and move back that many spaces.",color=red
+22,coin,"Gain 2 coins.",coins=2
+23,none,"No effect.",
+24,coin,"Gain 1 coin.",coins=1
+25,none,"No effect.",
+26,box,"Draw 1 mystery card.",
+27,coin,"Gain 1 coin.",coins=1
+28,trap,"Roll orange and move back that many spaces.",color=orange
+29,none,"No effect.",
+30,coin,"Gain 2 coins.",coins=2
+31,none,"No effect.",
+32,coin,"Gain 1 coin.",coins=1
+33,box,"Draw 1 mystery card.",
+34,none,"No effect.",
+35,trap,"Roll yellow and move back that many spaces.",color=yellow
+36,coin,"Gain 1 coin.",coins=1
+37,none,"No effect.",
+38,coin,"Gain 2 coins.",coins=2
+39,none,"No effect.",
+40,box,"Draw 1 mystery card.",
+41,coin,"Gain 1 coin.",coins=1
+42,trap,"Roll orange and move back that many spaces.",color=orange
+43,none,"No effect.",
+44,coin,"Gain 1 coin.",coins=1
+45,none,"No effect.",
+46,coin,"Gain 2 coins.",coins=2
+47,box,"Draw 1 mystery card.",
+48,none,"No effect.",
+49,trap,"Roll red and move back that many spaces.",color=red
+50,coin,"Gain 1 coin.",coins=1
+51,none,"No effect.",
+52,coin,"Gain 1 coin.",coins=1
+53,none,"No effect.",
+54,box,"Draw 1 mystery card.",
+55,coin,"Gain 2 coins.",coins=2
+56,trap,"Roll yellow and move back that many spaces.",color=yellow
+57,none,"No effect.",
+58,coin,"Gain 1 coin.",coins=1
+59,none,"Finish line marker.",finish_band=true
